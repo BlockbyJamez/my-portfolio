@@ -4,9 +4,9 @@ import SkillTag from "../components/SkillTag.vue";
 
 // 每個技能加上熟練度 (1~5)
 const skills = ref([
-  { name: "HTML", level: 4 },
+  { name: "HTML", level: 3 },
   { name: "CSS", level: 3 },
-  { name: "JavaScript", level: 4 },
+  { name: "JavaScript", level: 3 },
   { name: "Vue", level: 3 },
   { name: "Git", level: 2 },
 ]);
@@ -68,6 +68,7 @@ button {
 }
 select {
   margin-left: 6px;
+  cursor: pointer;
 }
 .skills {
   display: flex;

@@ -6,7 +6,7 @@ const showIntro = ref(false);
 const displayName = computed(() => name.value.trim() || "Anonymous");
 
 const motto = ref("持續學習，持續成長");
-const hobbies = ref(["Youtube 線上課程學習", "Vue.js 練習", "打籃球"]);
+const hobbies = ref(["線上課程學習(前端)", "Vue.js 練習", "打籃球"]);
 
 const currentTime = ref(new Date().toLocaleTimeString());
 
