@@ -1,0 +1,14 @@
+[
+  {
+    "title": "抽獎轉盤 (前端)",
+    "tech": ["HTML", "CSS", "JS", "Vue.js", "Canvas"],
+    "url": "https://github.com/BlockbyJamez/vue-lottery",
+    "desc": "Canvas 動畫與抽獎規則"
+  },
+  {
+    "title": "商品庫存管理 (全端練習)",
+    "tech": ["Vue.js", "Element Plus", "Node.js", "PostgreSQL"],
+    "url": "https://github.com/BlockbyJamez/my-inventory-frontend",
+    "desc": "Vibe Coding 製作登入驗證與 CRUD"
+  }
+]
