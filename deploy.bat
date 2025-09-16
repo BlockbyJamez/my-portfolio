@@ -1,25 +1,27 @@
 @echo off
 echo ================================
-echo ğŸš€ é–‹å§‹éƒ¨ç½² my-portfolio
+echo ?? ¶}©l³¡¸p my-portfolio
 echo ================================
 
-REM Step 1: æ‰“åŒ…å°ˆæ¡ˆ
-echo [1/3] åŸ·è¡Œ npm run build...
-npm run build
+REM Step 1: ¥´¥]±M®×
+echo [1/3] °õ¦æ npm run build...
+call npm run build
 
-REM Step 2: æ¨é€åŸå§‹ç¢¼åˆ° main
-echo [2/3] æäº¤ä¸¦æ¨é€ main åˆ†æ”¯...
+REM Step 2: ±À°e­ì©l½X¨ì main
+echo [2/3] ´£¥æ¨Ã±À°e main ¤À¤ä...
 git add .
-git commit -m "chore: update source"
+set /p msg=½Ğ¿é¤J commit °T®§ (¹w³]: chore: update source): 
+if "%msg%"=="" set msg=chore: update source
+git commit -m "%msg%"
 git push origin main
 
-REM Step 3: æ¨é€ dist åˆ° gh-pages
-echo [3/3] æ¨é€ dist åˆ° gh-pages...
+REM Step 3: ±À°e dist ¨ì gh-pages
+echo [3/3] ±À°e dist ¨ì gh-pages...
 git subtree push --prefix dist origin gh-pages
 
 echo ================================
-echo âœ… éƒ¨ç½²å®Œæˆï¼
-echo ç¶²ç«™æ›´æ–°å¾Œå¯è‡³: https://blockbyjamez.github.io/my-portfolio/
+echo ? ³¡¸p§¹¦¨¡I
+echo ºô¯¸§ó·s«á¥i¦Ü: https://blockbyjamez.github.io/my-portfolio/
 echo ================================
 
 pause
